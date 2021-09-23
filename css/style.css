@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*      Animation on Startup        */
+.element {
+  animation: pulse 3s 1;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} /*   Main Styling   */
+html,
+body {
+  scroll-behavior: smooth;
+}
+.styl {
+  border: 1px solid red;
+}
+.cont {
+  width: 100%;
+}
+.toolbar {
+  width: 93%;
+  margin: 0 auto;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  padding-top: 28px;
+  padding-bottom: 0px;
+}
+.tb {
+  margin: 0 auto;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  padding-top: 28px;
+  padding-bottom: 0px;
+}
+.nav-wrapper {
+  width: 100%;
+}
+.fas {
+  font-size: 1em;
+}
+.fa-envelope {
+  margin-left: 10px;
+}
+nav ul li a {
+  color: #222;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+  font-family: monospace;
+}
+nav ul li a:hover {
+  background-color: white;
+}
+.col3 {
+  text-align: right;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: #222;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+.material-icons {
+  color: black;
+}
+nav .sidenav .bullsy {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: fantasy;
+  font-size: 53px;
+  text-align: center;
+}
+nav .sidenav img {
+  height: 95%;
+}
+/*  responsive Css*/
+@media (max-width: 1000px) {
+  nav {
+    width: 100%;
+  }
+  nav .toolbar .tb {
+    left: 50%;
+  }
+  nav .sidenav-trigger {
+    margin-top: -24px;
+  }
+}
+@media (max-width: 600px) {
+  nav .sidenav-trigger {
+    margin-top: -19px;
+  }
+}
+@media (max-width: 440px) {
+  nav {
+    width: 100%;
+  }
+  nav .toolbar .tb {
+    display: none;
+  }
+  nav .sidenav-trigger {
+    margin-top: -25px;
+  }
+}

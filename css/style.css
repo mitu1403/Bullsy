@@ -141,4 +141,7 @@ nav .sidenav img {
   nav .sidenav-trigger {
     margin-top: -25px;
   }
+  nav .sidenav .fas {
+    margin-right: 0px;
+  }
 }

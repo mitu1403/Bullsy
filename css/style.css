@@ -107,6 +107,10 @@ nav .sidenav .bullsy {
   font-size: 53px;
   text-align: center;
 }
+nav .sidenav li a .clos {
+  font-size: 40px;
+  padding-left: 35%;
+}
 nav .sidenav img {
   height: 95%;
 }

@@ -22,8 +22,15 @@ body {
 .styl {
   border: 1px solid red;
 }
+section {
+  width: 100%;
+}
+/*  Toolbar */
 .cont {
   width: 100%;
+}
+.cont .row {
+  height: 6.8vh;
 }
 .toolbar {
   width: 93%;
@@ -106,7 +113,6 @@ nav .sidenav .bullsy {
   font-family: fantasy;
   font-size: 53px;
   text-align: center;
-  font-weight: 800;
 }
 nav .sidenav li a .clos {
   font-size: 40px;
@@ -115,6 +121,18 @@ nav .sidenav li a .clos {
 nav .sidenav img {
   height: 95%;
 }
+
+/*  Header */
+.header {
+  background-color: #f5f6f1;
+  height: 50vh;
+  padding-top: 10px;
+}
+.banner {
+  width: 93.5%;
+  margin: 0 auto;
+}
+
 /*  responsive Css*/
 @media (max-width: 1000px) {
   nav {
@@ -125,6 +143,11 @@ nav .sidenav img {
   }
   nav .sidenav-trigger {
     margin-top: -24px;
+  }
+}
+@media (max-width: 700px) {
+  .cont .row {
+    height: 6vh;
   }
 }
 @media (max-width: 600px) {

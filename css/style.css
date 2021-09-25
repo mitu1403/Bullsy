@@ -1,3 +1,8 @@
+@font-face {
+  font-family: bebas;
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -345,8 +350,10 @@ nav .sidenav img {
     margin-left: 25%;
   }
   .header .banner h1 {
-    font-size: 35px;
+    font-size: 45px;
     margin-left: 5px;
+    font-family: bebas;
+    font-weight: bolder;
   }
   .header .banner .col2 img {
     height: 43px;

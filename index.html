@@ -17,7 +17,7 @@
 <body class="element">
   <!--  Toolbar   -->
   <div class="cont">
-    <div class="row">
+    <div class="row row1">
       <nav class="nav-wrapper transparent stroke">
         <div class="toolbar">
           <a href="index.html" class="tb" >
@@ -52,20 +52,107 @@
             <li><a href="index.html"> Check Out </a></li>
             <li><a href="index.html"> Sign Up </a></li>
             <li><a href=""></a></li>
-            <li><a class="sidenav-close" href="index.html">
+            <li><a class="sidenav-close" href="">
               <i class="material-icons clos">cancel</i>
             </a></li>
           </ul>
         </div>
       </nav>
     </div>
-    <div class="row header styl" style="height: 20vh;">
-      <div class="banner styl"></div>
-
+    <!--  Header   -->
+    <div class="row row2 header">
+      <div class="banner">
+        <div class="col col1">
+          <h1>BULLSY</h1>
+          <p>RUGGED SHOES STORE</p>
+        </div>
+        <div class="col col2">
+          <img src="img/logo_icon.png" alt="">
+        </div>
+        <div class="col col4"></div>
+        <div class="col s7 hide-on-small-and-down">
+          <nav class="nav-wrapper transparent nav navbar-fixed">
+            <div class="toolbar">
+              <a href="" class="sidenav-trigger" data-target="mobile-menu2">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.html"> HOME    <span>/</span></a></li>
+                <li><a href="index.html"> APPAREL <span>/</span></a></li>
+                <li><a href="index.html"> FASHION <span>/</span></a></li>
+                <li><a href="index.html"> CONTACT US </a></li>
+              </ul>
+              <ul class="sidenav teal lighten-5" id="mobile-menu2">
+                <li><a href="index.html" class="bullsy"> BULLSY <img src="img/logo_icon.png" alt=""></a></li>
+                <li><a href="index.html"> HOME </a></li>
+                <li><a href="index.html"> APPARAL </a></li>
+                <li><a href="index.html"> FASHION </a></li>
+                <li><a href="index.html"> CONTACT US </a></li>
+                <li><a href=""></a></li>
+                <li><a class="sidenav-close" href="">
+                  <i class="material-icons clos">cancel</i>
+                </a></li>
+              </ul>
+            </div>
+          </nav>
+        </div> 
+        <div class="col col4" style="width: 177px;"></div>
+        <div class="col col5 hide-on-med-and-down">
+          <span>10 items</span>
+          <h6>$459.99</h6>
+        </div>
+        <div class="col col6 hide-on-med-and-down">
+          <img src="img/c.png" alt="">
+        </div>    
+      </div>
     </div>
+    <!--  Header End   -->
   </div>
   <!--  Toolbar End  -->
-  <!--  Header    -->
+  <!--  Hero   -->
+  <section class="hero">
+    <div class="container hero_cont ">
+      <div class="row">
+        <div class="col s7" style="margin-top: 90px;">
+          <h1>SHOE</h1>
+          <h1>SNICKERS</h1>
+          <h1>BOOTS</h1>
+          <h1>RUGGEDNESS</h1>
+          <h1 style="color: transparent;">.</h1>
+          <h1 style="color: transparent;">.</h1>
+        </div>
+        <div class="col s5 styl img_up hide-on-med-and-down " style="border: none;">
+          <img src="img/sb.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  Hero End   -->
+  <!--  Services   -->
+  <div class="services">
+    <div class="container services_cont parallax">
+      <div class="row row_serv">
+        <div class="col s12 m12 l3 serv">
+          <h1>FREE SHIPPING</h1>
+          <p class="p1">-on all orders above <span>$99</span></p>
+          <br>
+        </div>
+        <div class="col s12 m12 l4 serv">
+          <h1>NEW SHOES COLLECTIONS</h1>
+          <p class="p1">-brand new collection of <span>Bulls Shoes</span></p>
+          <br>
+        </div>
+        <div class="col s12 m12 l4 serv serv3">
+          <h1>MONEY BACK GUARANTEE</h1>
+          <p class="p2">-return policy of orders within <span>14 days</span></p>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section style="height: 100vh;">
+
+  </section>
   
 
 
@@ -76,7 +163,9 @@
   <script>
     $(document).ready(function(){
       $('.sidenav').sidenav();
+      $('.parallax').parallax();
     });
+    
 
   </script>
   

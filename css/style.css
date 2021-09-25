@@ -350,18 +350,18 @@ nav .sidenav img {
     margin-left: 25%;
   }
   .header .banner h1 {
-    font-size: 45px;
+    font-size: 44px;
     margin-left: 5px;
     font-family: bebas;
     font-weight: bolder;
   }
   .header .banner .col2 img {
-    height: 43px;
-    margin-top: -2px;
+    height: 50px;
+    margin-top: 0px;
     margin-left: -15px;
   }
   .header .banner p {
-    font-size: 10px;
+    font-size: 9.5px;
     margin-left: 5px;
   }
   .hero {

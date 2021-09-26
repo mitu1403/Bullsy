@@ -357,6 +357,78 @@ nav .sidenav img {
   right: 0px;
 }
 
+/*  Features */
+.features {
+  background-color: #eee;
+}
+.ftr_cont {
+  width: 95%;
+}
+.ftr_cont .row1 span {
+  padding: 0px 10px;
+}
+.ftr_cont .row1 h1 {
+  font-family: monospace;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.ftr_cont .row1 h1:before,
+.ftr_cont .row1 h1:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 3px solid black;
+  margin: auto;
+}
+.ftr_cont hr {
+  margin-top: -3.1%;
+  background-color: black;
+}
+.ftr_cont .row2 {
+  width: 98.5%;
+}
+.ftr_cont .row2 .fa-cart-plus {
+  font-size: 15px;
+}
+
+/*  Blog */
+.blog_cont {
+  width: 95%;
+}
+.blog_cont .row1 span {
+  padding: 0px 10px;
+}
+.blog_cont .row1 h1 {
+  font-family: monospace;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.blog_cont .row1 h1:before,
+.blog_cont .row1 h1:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 3px solid black;
+  margin: auto;
+}
+.blog_cont hr {
+  margin-top: -3.1%;
+  background-color: black;
+}
+.blog_cont .row2 {
+  width: 98.5%;
+}
+.blog_cont .row2 .card_content span {
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 /*  Arrivals */
 .arrv_cont {
   width: 95%;
@@ -386,12 +458,125 @@ nav .sidenav img {
 .arrv_cont .row2 {
   width: 98.5%;
 }
+.arrv_cont .row2 .fa-cart-plus {
+  font-size: 15px;
+}
+
+/*  footer1 */
+.foot1 {
+  background-color: #eee;
+}
+.foot1_cont {
+  width: 95%;
+}
+.foot1_cont h1 {
+  font-family: monospace;
+  font-size: 35px;
+  color: #222;
+  text-align: center;
+  font-weight: bold;
+}
+.foot1_cont p {
+  font-family: monospace;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -2%;
+}
+.foot1_cont a {
+  color: red;
+}
+
+/*  footer2 */
+.foot2 {
+  background-color: rgb(70, 54, 42);
+}
+.foot2_cont {
+  width: 95%;
+}
+.foot2_cont h1 {
+  color: white;
+  font-size: 43px;
+  font-family: fantasy;
+  margin-left: -13px;
+}
+.foot2_cont p {
+  color: white;
+  font-size: 12.3px;
+  font-family: monospace;
+  margin-top: -25px;
+  margin-left: -13px;
+  margin-bottom: 35px;
+}
+.foot2_cont .col2 {
+  margin-top: 45px;
+}
+.foot2_cont .col2 img {
+  height: 60px;
+  margin-left: -205px;
+}
+.foot2_cont img {
+  font-size: 43px;
+  font-family: fantasy;
+}
+.foot2_cont .sl {
+  padding-left: 12%;
+  color: red;
+}
+.foot2_cont a {
+  font-size: 20px;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+}
+.foot2_cont .scroll-top {
+  width: 48px;
+  height: 45px;
+  position: fixed;
+  bottom: 70px;
+  right: 5px;
+  display: none;
+  border-color: #292929;
+  background-color: transparent;
+  z-index: 100;
+}
+.foot2_cont .scroll-top i {
+  display: inline-block;
+  color: #292929;
+}
+.foot2_cont .scroll-top:hover {
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+/*  footer3 */
+.foot3_cont {
+  width: 95%;
+}
+.foot3_cont i {
+  padding: 0% 1%;
+  font-size: 19px;
+}
+.foot3_cont p {
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
 /*  responsive Css*/
 @media (max-width: 1350px) {
   .col5 {
     display: none;
   }
   .cat_cont .row1 h1 {
+    font-size: 30px;
+  }
+  .arrv_cont .row1 h1 {
+    font-size: 30px;
+  }
+  .ftr_cont .row1 h1 {
+    font-size: 30px;
+  }
+  .blog_cont .row1 h1 {
     font-size: 30px;
   }
 }
@@ -422,7 +607,16 @@ nav .sidenav img {
     margin-left: 50%;
   }
   .cat_cont .row1 h1 {
-    font-size: 25px;
+    font-size: 30px;
+  }
+  .arrv_cont .row1 h1 {
+    font-size: 30px;
+  }
+  .ftr_cont .row1 h1 {
+    font-size: 30px;
+  }
+  .blog_cont .row1 h1 {
+    font-size: 30px;
   }
 }
 @media (max-width: 700px) {
@@ -500,7 +694,32 @@ nav .sidenav img {
   .cat_cont .row1 h1 {
     font-size: 25px;
   }
+  .arrv_cont .row1 h1 {
+    font-size: 25px;
+  }
+  .ftr_cont .row1 h1 {
+    font-size: 25px;
+  }
+  .blog_cont .row1 h1 {
+    font-size: 25px;
+  }
   .cat_cont .row1 span {
     padding: 0px 4px;
+  }
+  .foot1_cont h1 {
+    font-size: 25px;
+  }
+  .foot1_cont p {
+    font-size: 13px;
+  }
+  .foot2_cont .scroll-top {
+    height: 35px;
+    bottom: 90px;
+  }
+  .foot3_cont p {
+    text-align: center;
+  }
+  .foot3_cont .icons {
+    text-align: center;
   }
 }

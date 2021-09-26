@@ -298,24 +298,6 @@ nav .sidenav img {
 .cat_cont .row1 span {
   padding: 0px 10px;
 }
-.cat_cont .lft img {
-  width: 100%;
-}
-.cat_cont .i1 {
-  margin-top: 15%;
-}
-.cat_cont .i2 {
-  transform: translate(0px, -15px);
-}
-.cat_cont .r8 img {
-  width: 100%;
-}
-.cat_cont .i3 {
-  margin-top: 15%;
-}
-.cat_cont .i4 {
-  transform: translate(0px, -15px);
-}
 .cat_cont .row1 h1 {
   font-family: monospace;
   font-size: 35px;
@@ -335,6 +317,9 @@ nav .sidenav img {
   margin-top: -3.1%;
   background-color: black;
 }
+.cat_cont .row2 {
+  width: 98.5%;
+}
 .cat_cont .row2 .card_content span {
   font-family: monospace;
   font-size: 40px;
@@ -342,11 +327,11 @@ nav .sidenav img {
   margin-bottom: 15px;
 }
 .nav-button {
-  height: 40px;
-  width: 25px;
+  height: 45px;
+  width: 30px;
   cursor: pointer;
   position: absolute;
-  top: 110px !important;
+  top: 150px !important;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover {
   background: black;
@@ -355,23 +340,51 @@ nav .sidenav img {
 .owl-theme .owl-nav [class*="owl-"] {
   background: transparent;
   color: white;
-  font-size: 15px;
+  font-size: 25px;
 }
 .owl-theme .owl-nav [class*="owl-"] {
-  padding: 7px 7px;
+  padding: 0px 7px;
 }
 .owl-carousel .owl-prev.disabled,
 .owl-carousel .owl-next.disabled {
   pointer-events: none;
   opacity: 0.25;
 }
-
 .owl-carousel .owl-prev {
   left: 0px;
 }
-
 .owl-carousel .owl-next {
   right: 0px;
+}
+
+/*  Arrivals */
+.arrv_cont {
+  width: 95%;
+}
+.arrv_cont .row1 span {
+  padding: 0px 10px;
+}
+.arrv_cont .row1 h1 {
+  font-family: monospace;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.arrv_cont .row1 h1:before,
+.arrv_cont .row1 h1:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 3px solid black;
+  margin: auto;
+}
+.arrv_cont hr {
+  margin-top: -3.1%;
+  background-color: black;
+}
+.arrv_cont .row2 {
+  width: 98.5%;
 }
 /*  responsive Css*/
 @media (max-width: 1350px) {
